@@ -3,7 +3,7 @@ WSGI for pythonanywhere.com hosting
 """
 
 import sys
-project_home = u'/home/RichardHills/housing'
+project_home = u'/home/RichardHills/housing3'
 if project_home not in sys.path:
     sys.path.append(project_home)
 
