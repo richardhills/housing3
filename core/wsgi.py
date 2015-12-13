@@ -1,11 +1,11 @@
 """
-WSGI config for core project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/
+WSGI for pythonanywhere.com hosting
 """
+
+import sys
+project_home = u'/home/RichardHills/housing'
+if project_home not in sys.path:
+    sys.path.append(project_home)
 
 import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
