@@ -23,7 +23,7 @@ const initialState = {
   features: List([
     Map({
       type: "road",
-      path: List([[0, 0], [100000, 0], [200000, 100000]])
+      path: List([[0, 0], [400000, 0], [400000, 400000], [0, 400000]])
     }),
     Map({
       type: "field",
